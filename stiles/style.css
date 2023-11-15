@@ -158,11 +158,6 @@ a:hover {
     flex-direction: column;
     width: 33%;
 }
-
-
-
-
-
 .rodape {
     padding: 24px;
     color: var(--cor-primaria);
@@ -173,7 +168,5 @@ a:hover {
 }
 
 @media (max-width: 1200px) {
-    .apresentacao__conteudo {
-        flex-direction: column;
-    }
+   
 }
