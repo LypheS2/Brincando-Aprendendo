@@ -43,26 +43,32 @@ a:hover {
 
 .apresentacao {
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: space-between;    
     gap: 82px;   
 }
 
-.div__apresentacao{
-    width: 34%;
+.apresentacao__conteudo {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 40px;
+    padding: 4% 12% 0% 0%;
 }
 
 .apresentacao__imagem {
-    width: 100%;
-    padding: 2% 0% 0% 19%;
+    width: 470px;
+    height: 440px;
+    padding: 15px 180px 50px 80px;
 }
 
-.apresentacao__conteudo {
+.div__apresentacao__texto{
     display: flex;
-    width: 30%;
     flex-direction: column;
-    gap: 40px;
-    padding: 4% 12% 0% 0%;
+    justify-content: right;
+    align-items: center;
+    gap: 45px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -77,18 +83,20 @@ a:hover {
     text-align: justify;
 }
 
-.apresentacao__links {
+.apresentacao__link {
     display: flex;
+    width: auto;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-    gap: 32px;
+    width: 100%;
+    gap: 24px;
+
 }
 
-.apresentacao__links__navegacao {
+.apresentacao__links {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 20px;
     border: 2px solid var(--cor-terciaria);
     width: 50%;
     text-align: center;
@@ -96,10 +104,21 @@ a:hover {
     font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
-    padding: 21.5px 0;
+    padding: 20px 0;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
 }
+.apresentacao__motivos {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
 
 .rodape {
     padding: 24px;
@@ -110,21 +129,3 @@ a:hover {
     font-size: 1.5rem;
 }
 
-@media (max-width: 1200px) {
-    .cabecalho {
-        display: flex;
-        padding: 10% 0% 0% 9%;    
-    }
-    .apresentacao {
-        display: flex;
-        flex-direction: column;
-        padding: 5%;
-        justify-content: center;  
-        align-items: center;
-    }
-    
-    .apresentacao__conteudo {
-        width: auto;
-        display: flex;
-    }
-}
