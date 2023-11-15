@@ -140,7 +140,7 @@ a:hover {
 .apresentacao__motivos {
     display: flex;
     flex-direction: row;
-    padding: 100px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
     gap: 20px;
     align-items: center;
     justify-content: space-between;
