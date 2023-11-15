@@ -45,8 +45,8 @@ a:hover {
     display: flex;
     width: 100%;
     align-items: center;
+    flex-direction: column;
     justify-content: space-between;    
-    gap: 82px;   
 }
 
 .apresentacao__conteudo {
@@ -54,7 +54,7 @@ a:hover {
     width: 100%;
     flex-direction: row;
     gap: 40px;
-    padding: 4% 12% 0% 0%;
+    padding: 4% 0% 0% 0%;
 }
 
 .apresentacao__imagem {
@@ -69,12 +69,20 @@ a:hover {
     justify-content: right;
     align-items: center;
     gap: 45px;
+    padding: 0px 140px 0px 0px;
 }
 
 .apresentacao__conteudo__titulo {
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
     text-align: center;
+}
+
+.apresentacao__conteudo__subtitulo {
+    font-size: 1rem;
+    font-family: var(--fonte-primaria);
+    text-align: center;
+    align-items: center;
 }
 
 .apresentacao__conteudo__texto {
@@ -108,13 +116,48 @@ a:hover {
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
 }
-.apresentacao__motivos {
+.motivos {
     display: flex;
     justify-content: center;
+    padding: 75px 0px 0px 0px;
+    align-items: center;
+}
+.motivoss {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 75px 0px;
+    align-items: center;
 }
 
+.div__apresentacao__motivos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
 
+.apresentacao__motivos {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0px 0px 0px;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
 
+.motivo__imagem {
+    width: 33%;
+}
+
+.apresentacao__motivos__cards {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
 
 
 
