@@ -121,6 +121,7 @@ a:hover {
     .apresentacao {
         flex-direction: column;
         padding: 5%;
+        justify-content: center;  
     }
     
     .apresentacao__conteudo {
